@@ -19,6 +19,9 @@ async function unRecommendVideos() {
 	}	
 	
 	document.querySelector("#endpoint > paper-item > yt-formatted-string").click();
+	
+	// Added method to clear the console 
+	console.clear();
 
 }
 
